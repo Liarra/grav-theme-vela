@@ -1,0 +1,23 @@
+<section class="hero-section">
+    {% if page.header.hero_background %}
+        {% set bg_file = page.header.hero_background|first %}
+        {% if bg_file %}
+            {% set background_image = page.media[bg_file.name] %}
+            {% if background_image %}
+                <div class="hero-background" style="background-image: url('{{ background_image.url }}');"></div>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+    
+    <div class="hero-content-wrapper">
+        <div class="hero-text-section">
+            {{ page.content|raw }}
+        </div>
+        
+        {% if page.header.announcements %}
+            <div class="hero-announcements">
+                {{ page.header.announcements|markdown }}
+            </div>
+        {% endif %}
+    </div>
+</section>
