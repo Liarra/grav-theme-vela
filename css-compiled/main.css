@@ -1649,3 +1649,20 @@ body {
   content: counters(item, ".") " ";
   counter-increment: item;
 }
+
+.language-selector.dropup .dropdown-menu {
+  position: absolute;
+  bottom: 100%; /* place above the button */
+  top: auto;
+  left: 0;
+  margin-bottom: 0.25rem;
+  z-index: 9999;
+  display: block; /* ensure visibility if JS toggles classes */
+}
+
+.language-selector {
+  position: fixed !important;
+  top: unset !important;
+  bottom: 10px;
+  float: none !important;
+}

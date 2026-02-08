@@ -35,7 +35,9 @@
         {% block header_navigation %}
         <div class="main-nav" id="menu"> 
             {% include 'partials/navigation.html.twig' %}
-        </div> 
+            {% include 'partials/language-selector.html.twig' %}
+        </div>
+
         {% endblock %}
     {% endblock %}
 
