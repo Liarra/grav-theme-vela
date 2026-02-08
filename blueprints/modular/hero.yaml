@@ -1,0 +1,46 @@
+title: Hero Section
+'@extends':
+    type: default
+    context: 'blueprints://pages'
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+          title: PLUGIN_ADMIN.CONTENT
+          fields:
+            header.title:
+              type: text
+              autofocus: true
+              style: vertical
+              label: PLUGIN_ADMIN.TITLE
+            content:
+              type: markdown
+              validate:
+                type: textarea
+
+        hero:
+          type: tab
+          title: Hero Settings
+          fields:
+            header.hero_background:
+              type: file
+              label: Background Image
+              help: Upload a background image for the hero section
+              description: This image will be displayed as the full-screen background
+              destination: 'self@'
+              accept:
+                - image/*
+
+            header.announcements:
+              type: markdown
+              label: Announcements
+              help: Content for the announcements section (bottom-right on desktop)
+              description: This content will appear in the announcements box
+              validate:
+                type: textarea
