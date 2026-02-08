@@ -36,10 +36,10 @@
         ul>li {
             padding-left: 2px;
             border-left: 4px solid $menu-sec-color;
-            background: rgba(185, 185, 185, 0.05);
+            background: rgba(221, 221, 220, 0.3);
         }
         ul ul {
-            background: rgba(219, 219, 219, -0.05);
+            background: rgba(221, 221, 220, 0.2);
         }
         a:hover,a:focus,a:active {
             color: $hover-active-font-color;

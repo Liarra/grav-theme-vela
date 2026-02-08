@@ -8,7 +8,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .notices p::before {
   position: absolute;
   box-sizing: border-box;
@@ -19,7 +18,6 @@
   left: 10px;
   font-size: 19px;
 }
-
 .notices p::after {
   position: absolute;
   box-sizing: border-box;
@@ -34,11 +32,9 @@
 .notices.yellow {
   background: rgba(239, 171, 76, 0.2);
 }
-
 .notices.yellow p {
   border-top: 30px solid rgba(239, 171, 76, 0.8);
 }
-
 .notices.yellow p::after {
   content: "Info";
 }
@@ -46,11 +42,9 @@
 .notices.red {
   background: rgba(217, 83, 79, 0.2);
 }
-
 .notices.red p {
   border-top: 30px solid rgba(217, 83, 79, 0.8);
 }
-
 .notices.red p::after {
   content: "Warning";
 }
@@ -58,11 +52,9 @@
 .notices.blue {
   background: rgba(106, 176, 222, 0.2);
 }
-
 .notices.blue p {
   border-top: 30px solid rgba(106, 176, 222, 0.8);
 }
-
 .notices.blue p::after {
   content: "Note";
 }
@@ -70,11 +62,9 @@
 .notices.green {
   background: rgba(92, 184, 92, 0.2);
 }
-
 .notices.green p {
   border-top: 30px solid rgba(92, 184, 92, 0.8);
 }
-
 .notices.green p::after {
   content: "Tip";
 }

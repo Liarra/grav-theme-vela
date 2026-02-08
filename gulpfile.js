@@ -1,11 +1,10 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
-sass.compiler = require('node-sass');
+var sass = require('gulp-sass')(require('sass'));
 
 var cleancss = require('gulp-clean-css');
 //var csscomb = require('gulp-csscomb');
 var rename = require('gulp-rename');
-var autoprefixer = require('gulp-autoprefixer');
+var autoprefixer = require('gulp-autoprefixer').default;
 var sourcemaps = require('gulp-sourcemaps');
 var wait = require('gulp-wait');
 var browserSync = require('browser-sync').create();
