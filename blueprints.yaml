@@ -1,11 +1,11 @@
-name: Vela
-slug: vela
+name: Tankokai
+slug: tankokai
 type: theme
 version: 1.2.5
 description: A simple app-like mobile first and content-focused Grav Theme
 icon: rebel
 author:
-  name: Matthias Danzinger
+  name: N
   email: matthias.danzinger@gmail.com
 homepage: https://github.com/danzinger/grav-theme-vela
 demo: http://demo.matthiasdanzinger.eu/vela

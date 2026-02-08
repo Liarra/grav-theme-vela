@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class Vela extends Theme
+class Tankokai extends Theme
 {
     // Access plugin events in this class
 }
