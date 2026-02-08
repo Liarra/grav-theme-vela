@@ -14,7 +14,7 @@
   "devDependencies": {
     "browser-sync": "latest",
     "gulp": "latest",
-    "gulp-autoprefixer": "latest",
+    "gulp-autoprefixer": "^10.0.0",
     "gulp-clean-css": "latest",
     "gulp-csscomb": "latest",
     "gulp-rename": "latest",
@@ -22,6 +22,8 @@
   },
   "dependencies": {
     "gulp-sourcemaps": "latest",
-    "gulp-wait": "latest"
+    "gulp-wait": "latest",
+    "node-sass": "^9.0.0",
+    "sass": "^1.97.3"
   }
 }
